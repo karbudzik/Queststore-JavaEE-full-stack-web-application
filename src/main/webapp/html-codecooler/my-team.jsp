@@ -41,8 +41,8 @@
                     </div>
                     
                     <div class="user">
-                        <p class="name">Magda</p>
-                        <p class="surname">Fiołek</p>
+                        <p class="name">Eliza</p>
+                        <p class="surname">Mial</p>
                         <img src="../assets/img/user-photo.svg" alt="user-photo">
                         <div class="description">
                             <p>Balance:</p>
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="user">
-                        <p class="name">Magda</p>
+                        <p class="name">Michał</p>
                         <p class="surname">Fiołek</p>
                         <img src="../assets/img/user-photo.svg" alt="user-photo">
                         <div class="description">
@@ -61,8 +61,8 @@
                     </div>
 
                     <div class="user">
-                        <p class="name">Magda</p>
-                        <p class="surname">Fiołek</p>
+                        <p class="name">Łukasz</p>
+                        <p class="surname">Jamróz</p>
                         <img src="../assets/img/user-photo.svg" alt="user-photo">
                         <div class="description">
                             <p>Balance:</p>

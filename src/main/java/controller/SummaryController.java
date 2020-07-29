@@ -1,6 +1,6 @@
 package controller;
 
-import DAO.UserJDBCDAO;
+import DAO.*;
 import model.CMSUser;
 import model.SummaryAdmin;
 import model.SummaryMentor;
@@ -27,7 +27,14 @@ public class SummaryController extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         try {
-            summaryService = new SummaryService(new UserJDBCDAO("src/main/resources/database.properties"));
+            summaryService = new SummaryService(
+                    new UserJDBCDAO("src/main/resources/database.properties"),
+                    new QuestJDBCDAO(),
+                    new ArtifactJDBCDAO(),
+                    new CodecoolerJDBCDAO(),
+                    new CodecoolerClassJDBCDAO(),
+                    new TeamJDBCDAO(),
+                    new LevelJDBCDAO());
         } catch (IOException e) {
             throw new ServletException("Problem with connect to database");
         }
