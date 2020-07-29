@@ -24,11 +24,11 @@ After logging in to admin's/mentor's section, the dashboard is displayed. Here a
 ![screenshot3](src/main/resources/img/screen3.png)
 #### List view for all sections
 As typical for CMS's layout, a user can view all available elements: mentors, admins, classes, teams, students, quests and artifacts.
-Sorting lists is possible for all tables.
+**Sorting lists is possible for all tables**.
 
 ![screenshot5](src/main/resources/img/screen5.png)
 #### Add new elements
-Also, for all available sections, admin has a possibility to add new elements. Forms used for that purpose are fully validated.
+Also, for all available sections, admin has a possibility to add new elements. **Forms used for that purpose are fully validated**.
 
 ![screenshot6](src/main/resources/img/screen6.png)
 
