@@ -22,10 +22,6 @@ After loging in, the user's session is created and configured. User can also eas
 After logging in to admin's/mentor's section, the dashboard is displayed. Here a user can view basic Codecool statistics and find links leading to dedicated sections.
 
 ![screenshot3](src/main/resources/img/screen3.png)
-#### Edit your details
-A person can edit their personal details and change password.
-
-![screenshot4](src/main/resources/img/screen4.png)
 #### List view for all sections
 As typical for CMS's layout, a user can view all available elements: mentors, admins, classes, teams, students, quests and artifacts.
 Sorting lists is possible for all tables.
