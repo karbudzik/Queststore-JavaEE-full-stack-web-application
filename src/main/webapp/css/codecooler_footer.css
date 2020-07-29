@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+body{
+    margin: 0px;
+}
+
+.footer{
+    background-color:#545759 ;
+    width: 100%;
+    /* margin-top: 30px; */
+    grid-template-columns: repeat(10, 1fr);
+    display: flex; 
+    align-items: center;  
+}
+
+.footer-text{
+    color: white;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.footer-logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-logo {
+        display: none;
+    }
+}

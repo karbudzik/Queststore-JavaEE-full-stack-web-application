@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    clear: both;
+    position: relative;   
+}
+
+.footer{
+    font-family: "Source Sans Pro";
+    background-color: #545759;
+    height: 80px;
+    width: auto;
+}
+
+.footer img{
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.footer p{
+    float: right;
+    margin: 30px;
+    color: white;
+}

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro Black";
+    src: url("../assets/fonts/SourceSansPro-Black.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", sans-serif;
+}
+
+.header{
+    font-family: "Source Sans Pro";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.left-position{
+    width: 200px;
+}
+
+
+footer{
+    clear: both;
+    position: relative;
+}
+
+.footer{
+    font-family: "Source Sans Pro";
+    background-color: #545759;
+    height: 80px;
+    width: auto;
+}
+
+.footer img{
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.footer p{
+    float: right;
+    margin: 30px;
+    color: white;
+}
+
+.container {
+    font-family: "Source Sans Pro";
+    display: flex;
+    flex-direction: row;
+    background-color: #BF343F;
+    min-height: calc(100vh - 160px);
+}
+
+.main-content-container {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Source Sans Pro Black", sans-serif;
+    font-size: 60px;
+    color: #F2F2F2;
+}
+
+.messages {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+.btn {
+    font-family: "Source Sans Pro";
+    background: #418FBF;
+    padding: 8px 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    font-size: 22px;
+    color: #F2F2F2;
+    border: none;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(55, 158, 223);
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.graphic {
+    position: absolute;
+    right: 150px;
+}
+
+.graphic img {
+    height: 350px;
+}
+
+@media screen and (max-width: 1200px) {
+    .graphic {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .main-content-container {
+        width: 80%;
+    }
+}

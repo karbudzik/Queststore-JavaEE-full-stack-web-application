@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 200px;
+    height: 100%; 
+    background-color: #BF343F;
+}
+
+.nav-menu li {
+    padding: 14px 12px;
+}
+
+.nav-menu li:hover {
+    background-color: #9A1823;
+}
+
+.nav-menu img {
+    margin: auto 12px;
+}
+
+.nav-menu a {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+}
+
+#select-page{
+    background-color: #9A1823;
+}

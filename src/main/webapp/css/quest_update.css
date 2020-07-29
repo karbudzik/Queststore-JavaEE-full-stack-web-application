@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 160px);
+}
+
+.details-container {
+    font-family: "Source Sans Pro";
+    color: #0D0D0D;
+    width: 100%;
+    padding: 24px;
+    background-color: #DFDFDF;
+}
+
+.details-container a {
+    text-decoration: none;
+    color: #418FBF;
+}
+
+.quest-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 30px;
+    margin-top: 24px;
+}
+
+.quest-details h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.quest-details label, .picture p, .picture a, .properties, .properties input, .properties select {
+    color: #545759;
+    margin: 12px 0;
+}
+
+.quest-details input, .quest-details textarea {
+    border: 1px solid #9CA1A6;
+    background-color: #F2F2F2;
+    height: 50px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #545759;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.quest-details textarea{
+    height: auto;
+}
+
+.lower-section {
+    font-family: "Source Sans Pro";
+    height: 60px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.lower-section p {
+    color: #545759;
+}
+
+.btn {
+    background: #418FBF;
+    padding: 6px 50px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    font-size: 18px;
+    color: #F2F2F2;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(55, 158, 223);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.quest-type{
+    width: 400px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid #9CA1A6;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    color: #545759;
+}
+
+.properties-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#quest-logo{
+    width: 156px;
+    height: 156px;
+}
+
+.picture a{
+    text-decoration: underline;
+}
+
+.picture a img{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.properties input{
+    width: 400px;
+}
+
+.validation-message {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #BF343F;
+}

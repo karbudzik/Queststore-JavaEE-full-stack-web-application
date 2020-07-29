@@ -1,0 +1,64 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html lang="en" onclick="return hideSubMenu()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href='../favicon.ico' type='image/x-icon'>
+    <link rel="stylesheet" href="../css/artifact_update.css">
+    <title>Add new artifacts</title>
+</head>
+
+<body>
+    <jsp:include page="../html-common/cms-header.jsp" />
+
+    <div class="container">
+        <jsp:include page="../html-common/cms-navigation.jsp" />
+
+        <div class="details-container">
+            <form action="/artifacts/add" method="post">
+            <h1>Add new artifact</h1>
+            <a href="/artifacts">&#60;- Back to the list</a>
+                <p class="validation-message">${message}</p>
+            <div class="artifacts-details">
+                <h2>Basic details</h2>
+                <label for="artifacts-name">Name*:</label>
+                <input type="text" id="artifacts-name" name="artifact-name">
+                <p class="validation-message">${name_validation_message}</p>
+                <label for="artifacts-descripton">Description*:</label>
+                <textarea id="artifacts-descripton" name="artifact-description"></textarea>
+                <p class="validation-message">${description_validation_message}</p>
+                <div class="proporties-section">
+                    <div class="picture">
+                        <p>Picture: </p>
+                        <a href="#"><img src="../assets/icons/change_picture.svg" alt=" ">Add the picture</a>
+                    </div>
+                    <div class=proporties>
+                        <label>Value (Number of coins student will get for the artifacts)*:</label><br>
+                        <input type="text" name="artifact-value"><br>
+                        <p class="validation-message">${value_validation_message}</p>
+                        <label>Type (Single or Team):</label><br>
+                        <select class= "type-seletor" id="type-selector" name="type-selector">
+                            <option value="" selected disabled hidden>Choose...</option>
+                            <option>Single</option>
+                            <option>Team</option>
+                        </select>
+                        <p class="validation-message">${type_validation_message}</p>
+                    </div>
+                </div>
+                    <div class="lower-section">
+                        <p>*- Fields marked like the need to be filled to add new entry</p>
+                        <button class="btn" id="add-new-artifact">Add new artifact</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <jsp:include page="../html-common/footer.html" />
+    <script>
+        document.getElementsByClassName('artifacts-nav')[0].setAttribute('id', 'select-page');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+.container {
+    font-family: "Source Sans Pro";
+    display: flex;
+    flex-direction: row;
+    background-color: #DFDFDF;
+}
+
+.all-admins-container {
+    font-family: 'Source Sans Pro';
+    width: 100%;
+}
+
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-section div {
+    padding: 12px;
+    display: flex;
+    width: 50%;
+}
+
+.upper-section button {
+    margin: auto 24px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right-section p {
+    color: #545759;
+}
+
+.btn {
+    background: #418FBF;
+    padding: 6px 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    font-size: 18px;
+    color: #F2F2F2;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(55, 158, 223);
+    font-size: 21px;
+}
+
+.list-of-admins {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 8px;
+}
+
+.list-of-admins div {
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: 36px repeat(5, 1fr);
+}
+
+.header-for-list {
+    height: 40px;
+}
+
+.header-for-list div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto 4px;
+}
+
+.person-row div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin: auto 4px;
+}
+
+.arrows {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+.arrows img {
+    margin: 2px;
+}
+
+.person-row {
+    height: 60px;
+}
+
+.person-row img {
+    margin-right: 12px;
+    height: 18px;
+    width: 18px;
+}

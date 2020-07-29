@@ -1,0 +1,407 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Black";
+    src: url("../assets/fonts/SourceSansPro-Black.ttf");
+}
+
+body{
+    margin: 0px;
+}
+
+.right-position{
+    display: flex; 
+    align-items: center;
+    align-content: center;
+}
+
+.right-position p, a{
+    margin-right: 10px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
+    height:auto;
+    margin-bottom: 0px
+}
+
+#label{
+    font-family: "Source Sans Pro";
+    font-size: 48px;
+    display: table;
+    width: auto;
+    margin-left: 65px;
+    padding: 5px;
+    color: #F2F2F2;
+    background-color: #BF343F;
+}
+
+#label-profil, #label-password{
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.form label{
+    font-family: "Source Sans Regular";
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form input{
+    margin-top: 10px;
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #F2F2F2;
+    border: 1px solid #9CA1A6;
+}
+
+
+.level-1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-right: 65px;
+    background-color: #F2F2F2;
+}
+
+#information {
+    width: 45%;
+}
+
+#change-password {
+    width: 45%;
+}
+
+#change-password form input{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.info-student{
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#student-photo{
+    margin-bottom: 20px;
+}
+
+#picture a img{
+    margin-right: 10px;
+}
+
+#picture a{
+    text-decoration: none;
+    color: #545759;
+}
+
+#change-password-button{
+    margin-top: 80px;
+}
+
+#information-bottom{
+    display: flex;
+    font-family: "Source Sans Regular";
+    font-size: 18px;
+}
+
+#button-update{
+    margin-top: 60px;
+    width: 190px;
+}
+
+.level-2, .level-4{
+    display: flex;
+    background-color: #418FBF;
+}
+
+.level-2 img, .level-4 img, .my-level img{
+    margin-right: 10px;
+}
+
+#acctual-level img{
+    width: 100px;
+}
+
+.level-2 h1, .level-2 h2, .my-level h1, .my-level h2{
+    display: table;
+    width: auto;
+    font-family: "Source Sans Pro";
+    color: #F2F2F2;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.level-2 h2, .my-level h2{
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+#acctual-account, #acctual-level, #to-achieve-for-next-level{
+    color: #418FBF;
+    background-color: #F2F2F2;
+    margin-left: 20px;
+    padding: 10px;
+    display: table;
+    font-family: "Source Sans Pro";
+    font-size: 48px;
+}
+
+#acctual-level, #to-achieve-for-next-level{
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    color: #BF343F;
+}
+
+.description{
+    margin-top: 20px !important;
+    margin-left: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+p.description {
+    padding-left: 20px;
+    margin-left: 20px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    color:#F2F2F2;
+}
+
+#next-level{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.items{
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: #F2F2F2;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    max-width: 310px;
+    background-color: #F2F2F2;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.title{
+    font-size: 28px;
+}
+
+.item p{
+    margin: 10px;
+    max-width: 450px;
+    font-family: "Source Sans Pro";
+    color: #418FBF;
+}
+
+.item img{
+    margin-right: 0px;
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+.title{
+    font-size: 28px;
+    height: 110px;
+}
+
+.price{
+    display: table;
+    font-size: 28px;
+}
+
+.used{
+    font-family: "Source Sans Regular";
+    font-size: 28px;
+}
+
+.available{
+    font-family: "Source Sans Pro";
+    font-size: 40px;
+}
+
+.level-2-text, .level-4-text, .my-level-text{
+    font-family: "Source Sans Regular";
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.level-3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2
+}
+
+.level-3 h1{
+    width: auto;
+    font-family: "Source Sans Black";
+    font-size: 48px;
+    color: #BF343F;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.level-3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Source Sans Regular";
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.level-3-text p{
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    max-width: 635px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column; 
+    position: absolute;  
+    right: 5%;                        /* horizontal alignment */
+    top: 10%;                         /* vertical alignment */
+    transform: translate(-0%, -0%);/*  precise centering; see link below */
+}
+
+.text{
+    display: inline;
+    font-family: "Source Sans Pro";
+    font-size: 72px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text.blue{
+    color: #2491D4;
+    background-color: #F2F2F2;
+}
+
+.text.red{
+    color: #F2F2F2;
+    background-color: #BF343F;
+}
+
+.button{
+    width: 300px;
+    height: 50px;
+    background:#2E3159;;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #F2F2F2;
+    margin-bottom: 20px;
+    border:none;
+}
+
+.button-red{
+    width: 300px;
+    height: 50px;
+    background:#BF343F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #F2F2F2;
+    margin: auto;
+    margin-bottom: 50px;
+    border:none;
+    transition: all 0.2s;
+}
+
+.button-red:hover {
+    background-color:rgb(228, 49, 64);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.my-level{
+    background-color: #BF343F;
+}
+
+@media screen and (max-width: 1000px) {
+    #label {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .level-1 {
+        flex-direction: column;
+    }
+
+    #information {
+        width: 90%;
+    }
+    
+    #change-password {
+        width: 90%;
+    }
+
+    .level-3-text h1{
+        font-size: 28px;
+    } 
+
+    .level-3-text p {
+        max-width: 80%;
+    } 
+
+    .item img{
+        height: 180px;
+    }
+}

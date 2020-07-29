@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 160px);
+    min-width: 900px;
+}
+
+.details-container {
+    font-family: "Source Sans Pro";
+    color: #0D0D0D;
+    width: 100%;
+    padding: 24px;
+    background-color: #DFDFDF;
+}
+
+.details-container a {
+    text-decoration: none;
+    color: #418FBF;
+}
+
+.personal-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 30px;
+    margin-top: 24px;
+    min-height: 500px;
+}
+
+.personal-details h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.personal-details label {
+    color: black;
+    margin: 12px 0;
+}
+
+.personal-details input {
+    border: 1px solid #9CA1A6;
+    background-color: #F2F2F2;
+    height: 50px;
+    width: 100%;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #545759;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.lower-section {
+    font-family: "Source Sans Pro";
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    grid-column: span 2;
+}
+
+.lower-section p {
+    color: #545759;
+}
+
+.btn {
+    background: #418FBF;
+    padding: 6px 18px;
+    padding-top: 10px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    font-size: 18px;
+    color: #F2F2F2;
+    width: 160px;
+    height: 50px;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(55, 158, 223);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.header-for-list{
+    display: grid;
+    grid-template-columns: 36px repeat(3, 1fr);
+    text-align: left;
+    height: 40px;
+}
+
+.header-for-list div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.header-for-list .name-div{
+    justify-content: left !important;
+}
+
+.header-for-list .email-div{
+    justify-content: left !important;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap:10px;
+}
+
+.class{
+    width: 90%;
+    line-height: 2.5;
+}
+
+.class input {
+    font-family: "Source Sans Regular";
+}
+
+.class-members{
+    display: grid;
+    grid-template-columns: 36px repeat(3, 1fr);
+    text-align: left;
+    height: 40px;
+    margin-top: 20px;
+    font-family: "Source Sans Regular";
+}
+
+.class-members .actions{
+    text-align: center;
+}
+
+.add-new-codecooler{
+    margin-top: 20px;
+    color:#545759;
+}
+
+#selector{
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 12px;
+    height:40px;
+    background-color: #F2F2F2;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    color: #545759;
+}
+
+#selector.student-name {
+    padding-left: 5px;
+}
+
+#add-codecooler{
+    display: grid;
+    margin-left: auto;
+}
+
+.information{
+    color: #BF343F;
+    margin: 10px;
+}
+
+/* Preventing layout from collapsing on mobile devices: */
+.header {
+    min-width: 1100px;
+}
+
+footer {
+    min-width: 1100px;
+}
+
+.validation-message {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #BF343F;
+}

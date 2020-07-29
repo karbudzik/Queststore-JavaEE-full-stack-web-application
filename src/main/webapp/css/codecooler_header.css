@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top{
+    width: 92%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    width: 320px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+nav a:hover{
+    color:#2491D4;
+}
+
+.right-position{
+    display: flex; 
+    align-items: center;
+    align-content: center;
+}
+
+.right-position p, a{
+    font-family: "Source Sans Pro";
+    margin-right: 5px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    padding: 10px;
+    margin-left: 55px;
+}
+
+#fb-logo{
+    height: 25px;
+    transition: all 0.2s;
+}
+
+#fb-logo:hover{
+    filter: invert(28%) sepia(16%) saturate(4449%) hue-rotate(194deg) brightness(96%) contrast(73%);
+}
+
+#linkedin-logo{
+    height: 25px;
+    transition: all 0.2s;
+}
+
+#linkedin-logo:hover{
+    filter: invert(26%) sepia(93%) saturate(1531%) hue-rotate(178deg) brightness(100%) contrast(101%);
+}
+
+#yt-logo{
+    height: 25px;
+    transition: all 0.2s;
+}
+
+#yt-logo:hover{
+    filter: invert(13%) sepia(88%) saturate(6957%) hue-rotate(357deg) brightness(92%) contrast(118%);
+}
+
+#instagram-logo{
+    height: 25px;
+    transition: all 0.2s;
+}
+
+#instagram-logo:hover{
+    filter: invert(27%) sepia(47%) saturate(5531%) hue-rotate(325deg) brightness(95%) contrast(85%);
+}
+
+#twitter-logo{
+    height: 25px;
+    transition: all 0.2s;
+}
+
+#twitter-logo:hover{
+    filter: invert(59%) sepia(37%) saturate(4140%) hue-rotate(176deg) brightness(93%) contrast(104%);
+}
+
+#log-out-icon img{
+    width: 25px;
+    height: 25px;
+}
+
+#dark-blue-text{
+    color: #2E3159;
+}
+
+#light-blue-text{
+    color: #418FBF;
+}
+
+#red-text{
+    color: #BF343F;
+}
+
+@media screen and (max-width: 800px) {
+    .social-media {
+        display: none;
+    }
+    .logo {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .logo {
+        max-width: 160px;
+    }
+
+    header {
+        max-height: 110px;
+    }
+}
