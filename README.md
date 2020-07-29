@@ -3,9 +3,6 @@ Queststore is a web app for Codecool students to achieve quests and win artifact
 
 The project itself was created by group of 4 students during the period of 6 weeks. It was an independent work of the team, starting from preparing DB structure and class graphs, creating logos, web designs, to execution and testing.
 
-![erd](src/main/resources/img/erd.png)
-
-![uml](src/main/resources/img/uml.png)
 ## General info
 Portal has been divided into two parts: 
 * **CMS for admins and mentors** - thanks to which people managing students in Codecool have a chance to add, edit, delete and view all students, teams, classes, quests and artifacts available in the portal.
